@@ -1,0 +1,55 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.background {
+    background-image: url(../images/header.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.clone {
+    display: none !important;
+}
+
+.map {
+    height: 400px;
+}
+
+.font-large {
+    font-size: 2em;
+}
+
+.font-medium {
+    font-size: 0.8em;
+}
+
+.carBorder {
+    border: 2px solid #eeeeee;
+}
